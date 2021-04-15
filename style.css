@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(175, 173, 173);
+}
+.navigation {
+  width: 90vw;
+  height: 60px;
+  /* background-color: purple; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left .logo {
+  font-size: 30px;
+  padding: 5px;
+  cursor: pointer;
+}
+.left a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  font-family: arial;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.left a:hover {
+  color: white;
+}
+.right {
+  padding: 5px;
+}
+.right input {
+  width: 130px;
+  background: rgba(240, 240, 240, 0.692);
+}
+.right input,
+button {
+  font-size: 15px;
+  padding: auto;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.right button {
+  cursor: pointer;
+  background: rgb(221, 217, 217);
+}
+/* ========================================== */
+.content {
+  /* background-color: teal; */
+  width: 90vw;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  justify-content: space-between;
+}
+.descriv {
+  font-size: 10px;
+  font-family: arial;
+  padding: 5px 10px;
+  color: rgb(39, 42, 44);
+}
+.bg-pic img {
+  width: 200px;
+  height: 200px;
+  margin: 20px 10px;
+  border: 1px solid black;
+  border-radius: 100%;
+  opacity: 0.8;
+}
+/* ============================================== */
+.image {
+  width: 50%;
+  font-size: 10px;
+  /* background-color: sandybrown; */
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  padding: 5px;
+}
+.image img {
+  border: 3px solid black;
+}
+.image img:hover {
+  opacity: 0.5;
+}
+.text {
+  padding: 10px;
+}
+.text:hover {
+  color: rgb(73, 3, 80);
+}
+/* ============================================== */
+.fother {
+  height: 50px;
+  background-color: rgb(190, 184, 184);
+  color: rgba(8, 5, 8, 0.733);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.fother h2:hover {
+  color: purple;
+  cursor: pointer;
+}
+/* ================================================ */
+.contact {
+  margin-top: 100px !important;
+  margin-bottom: 230px !important;
+  box-shadow: 0px 2px 8px 2px;
+}
+.contact:hover {
+  box-shadow: 0px 3px 10px 3px;
+}
+.contact h1 {
+  padding-top: 10px;
+  margin: 15px;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.contact h1:hover {
+  color: rgb(73, 2, 51);
+}
+.contact input,
+textarea {
+  display: block;
+  padding: 10px;
+  margin: 15px;
+  width: 40vw;
+  border: none;
+  border-radius: 3px;
+}
+.contact input:focus {
+  padding: 12px;
+}
+.contact button {
+  background-color: rgb(50, 50, 231);
+  margin: 15px;
+  width: 10vw;
+  border: 2px solid black;
+  border-radius: 3px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.contact button:hover {
+  color: white;
+}
+/* ================================================ */
